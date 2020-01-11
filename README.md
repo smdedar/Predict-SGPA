@@ -6,4 +6,4 @@ Our university result system we can only see the CGPA can't see the SGPA (Semest
 
 
 ## Live Server
-[Predit SGPA](https://choosealicense.com/licenses/mit/)
+[Predit SGPA](https://ttm3y8tnpxo6zwr6ihhlwg-on.drv.tw/Predict-SGPA/)
