@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Predict SGPA</title>
-
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    
     <!-- Jquery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Compiled and minified CSS -->
@@ -17,14 +18,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- External Js -->
     <script src="app.js"></script>
-    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    
 
 </head>
 <style>
-    .cbody {
-        height: 800px;
-        margin-top: 8%;
-    }
+    
 </style>
 
 <body>
@@ -36,15 +36,15 @@
             <div class="col l4 s12 ">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="psno" type="text" class="validate">
+                        <input id="psno" type="number" class="validate" required>
                         <label for="psno">Previous Semester No</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="pscgpa" type="text" class="validate">
+                        <input id="pscgpa" type="number" class="validate">
                         <label for="pscgpa">CGPA Previous Semester</label>
                     </div>
                     <div class="input-field col  s12">
-                        <input id="ccgpa" type="text" class="validate">
+                        <input id="ccgpa" type="number" class="validate">
                         <label for="ccgpa">Current CGPA</label>
                     </div>
                     <div class="center-align col s12 ">
@@ -67,11 +67,10 @@
 
 
     <footer class="page-footer purple accent-1">
-
         <div class="footer-copyright purple accent-1">
             <div class="container">
                 © 2020 DEVwDID
-                <a class="grey-text text-lighten-4 right" href="#!"></a>
+                <a class="grey-text text-lighten-4 right" href="https://github.com/smdedar/Predict-SGPA"><i class="material-icons right">share</i></a>
             </div>
         </div>
     </footer>
